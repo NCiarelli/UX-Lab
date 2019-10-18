@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+header {
+  background-color: #993366;
+}
+
+.login-register {
+  max-width: 400px;
+  border-left-style: solid;
+  border-right-style: solid;
+}
