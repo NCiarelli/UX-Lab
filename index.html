@@ -9,17 +9,35 @@
   </head>
   <body>
     <header>
-      <h1>Wine Reviews</h1>
+      <img src="wine.png" alt="Whine logo" class="whine-logo" />
+      <a href="#" class="home-link">Whine</a>
+      <a href="#" class="login-link">Login</a>
     </header>
 
     <form class="login-register">
-      <input type="text" name="" id="" />
-      <input type="password" name="" id="" />
-      <input type="email" name="" id="" />
-      <input type="checkbox" name="" id="" />
-      <input type="checkbox" name="" id="" />
-      <button type="submit"></button>
-      <button type="submit"></button>
+      <h1 class="login-heading">Login/Register</h1>
+      <label for="">
+        <input type="text" name="Username" class="textbox" /> Username
+      </label>
+      <label for="">
+        <input type="password" name="" class="textbox" /> Password</label
+      >
+      <label for="">
+        <input type="email" name="" class="textbox" /> Email (for registration
+        only)
+      </label>
+      <label for="" class="check-label">
+        <input type="checkbox" name="" id="" /> Email me for newly posted
+        reviews
+      </label>
+      <label for="" class="check-label">
+        <input type="checkbox" name="" id="" /> Email me when there is activity
+        on my reviews
+      </label>
+      <div class="button-container">
+        <button type="submit">Login</button>
+        <button type="submit">Register</button>
+      </div>
     </form>
   </body>
 </html>
