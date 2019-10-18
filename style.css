@@ -1,3 +1,4 @@
+/* General page wide styling */
 body {
   margin: 0;
   padding: 0;
@@ -5,33 +6,38 @@ body {
   font-family: sans-serif;
 }
 
+/* Header Styling */
+
 header {
-  position: fixed;
   background-color: #993366;
+  /* Fix the header position */
+  position: fixed;
   width: 100vw;
-  text-align: center;
   height: 75px;
+  /* setup header item alignment */
+  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+/* Styling of the header links */
 header a {
   color: white;
   text-decoration: none;
-  font-family: sans-serif;
   font-size: 2em;
   padding: 20px;
 }
-
 .logo {
+  /* Make sure the logo isn't too big. */
   height: 50px;
   width: 50px;
 }
-
 .login-link {
+  /* Login Link shouldn't show up on a login page */
   visibility: hidden;
 }
+
+/* Login/Registration Form Styling */
 
 .login-register {
   background-color: white;
@@ -43,6 +49,7 @@ header a {
 
 .login-heading {
   text-align: center;
+  /* Give space for the header */
   margin-top: 75px;
 }
 
@@ -52,11 +59,12 @@ header a {
   margin: auto 5px;
 }
 
+/* Login and Resgister Buttons */
+
 .button-container {
   display: flex;
   justify-content: space-around;
 }
-
 button {
   background: #993366;
   color: white;
@@ -64,6 +72,8 @@ button {
   border-radius: 20px;
   padding: 5px 10px;
 }
+
+/* Desktop Version Styling Changes */
 
 @media screen and (min-width: 600px) {
   .login-register {
