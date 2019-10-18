@@ -6,7 +6,9 @@ body {
 }
 
 header {
+  position: fixed;
   background-color: #993366;
+  width: 100vw;
   text-align: center;
   height: 75px;
   display: flex;
@@ -41,6 +43,7 @@ header a {
 
 .login-heading {
   text-align: center;
+  margin-top: 75px;
 }
 
 .textbox {
